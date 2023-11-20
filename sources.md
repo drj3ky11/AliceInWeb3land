@@ -3,6 +3,9 @@
 + [Ethereum yellow paper](https://ethereum.github.io/yellowpaper/paper.pdf)
 + [Ethereum yellow paper explained](https://ethereum.org/en/developers/tutorials/yellow-paper-evm/)
 + [Ethereum beige paper](https://github.com/chronaeon/beigepaper/blob/master/beigepaper.pdf)
++ [Flash Boys 2.0](https://arxiv.org/pdf/1904.05234.pdf)
++ [MEV in eth2](https://writings.flashbots.net/mev-eth2/)
++ [Vitalik about Flashbots](https://ethresear.ch/t/proposer-block-builder-separation-friendly-fee-market-designs/9725)
 
 
 ## Statistics
