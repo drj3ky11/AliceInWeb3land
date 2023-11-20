@@ -7,3 +7,4 @@ Notes about web3
 > ‘Well, in our country,’ said Alice, still panting a little, ‘you’d generally get to somewhere else — if you ran very fast for a long time, as we’ve been doing.’
 > ‘A slow sort of country!’ said the Queen. ‘Now, here, you see, it takes all the running you can do, to keep in the same place.
 > If you want to get somewhere else, you must run at least twice as fast as that!’
+> *Through the Looking Glass* Lewis Carroll
