@@ -15,4 +15,5 @@
 ## Hacks
 
 + [ChainSec](https://chainsec.io/defi-hacks/)
-+ [Reentrancy attack](https://twitter.com/nateostro/status/1683895075661836288)
++ [Re-entrancy attack](https://twitter.com/nateostro/status/1683895075661836288)
++ [Re-entrancy examples](https://github.com/pcaversaccio/reentrancy-attacks)
