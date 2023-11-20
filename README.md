@@ -25,4 +25,4 @@ secure.
 
 + [Resources](sources.md)
 
-1. [Curve exploited](Curve20%Pool20%Reentrancy20%Exploit/README.md)
+1. [Curve exploited](/Curve%20Pool%20Reentrancy%20Exploit)
