@@ -9,3 +9,4 @@
 
 + [Top layer 1](https://www.linkedin.com/feed/update/urn:li:activity:7130804500667265025/)
 + [Total Value Locked](https://defillama.com/chains)
++ [Web3 is going great](https://web3isgoinggreat.com/)
