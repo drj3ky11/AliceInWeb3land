@@ -6,6 +6,7 @@
 + [Flash Boys 2.0](https://arxiv.org/pdf/1904.05234.pdf)
 + [MEV in eth2](https://writings.flashbots.net/mev-eth2/)
 + [Vitalik about Flashbots](https://ethresear.ch/t/proposer-block-builder-separation-friendly-fee-market-designs/9725)
++ [MEV](https://ethereum.org/es/developers/docs/mev/)
 
 
 ## Statistics
