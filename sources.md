@@ -7,6 +7,7 @@
 + [MEV in eth2](https://writings.flashbots.net/mev-eth2/)
 + [Vitalik about Flashbots](https://ethresear.ch/t/proposer-block-builder-separation-friendly-fee-market-designs/9725)
 + [MEV](https://ethereum.org/es/developers/docs/mev/)
++ [Precision lost Solidity](https://twitter.com/BlockSecTeam/status/1714701696189034664)
 
 
 ## Statistics
@@ -22,4 +23,4 @@
 + [Re-entrancy attack](https://twitter.com/nateostro/status/1683895075661836288)
 + [Re-entrancy examples](https://github.com/pcaversaccio/reentrancy-attacks)
 + [Curve PostMorten](https://hackmd.io/@LlamaRisk/BJzSKHNjn)
-+ 
++ [Hope Lend](https://cointelegraph.com/news/ethereum-defi-protocol-hope-lend-drained-after-exploit)
