@@ -24,3 +24,4 @@
 + [Re-entrancy examples](https://github.com/pcaversaccio/reentrancy-attacks)
 + [Curve PostMorten](https://hackmd.io/@LlamaRisk/BJzSKHNjn)
 + [Hope Lend](https://cointelegraph.com/news/ethereum-defi-protocol-hope-lend-drained-after-exploit)
++ [Top 10  Vul in we3](https://medium.com/immunefi/the-top-10-most-common-vulnerabilities-in-web3-bf7a921d489f)
