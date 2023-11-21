@@ -1,5 +1,5 @@
 # Alice In Web3land
-Notes about web3
+
 
 
 > Alice looked round her in great surprise. ‘Why, I do believe we’ve been under this tree the whole time! Everything’s just as it was!’
