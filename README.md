@@ -23,7 +23,7 @@ is the only way for such a novel technology to be truly successful and secure.
 secure.
 
 
-+ [Resources](sources.md)
+📚 [Resources](sources.md)
 
 1. [Curve exploited](/Curve%20Pool%20Reentrancy%20Exploit)
 2. [Hope](/hope)
