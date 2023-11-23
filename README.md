@@ -17,5 +17,7 @@ The creation of new protocols and smart contracts is a daily race in the web3 en
 
 📚 [Resources](sources.md)
 
-1. [Curve exploited](/Curve%20Pool%20Reentrancy%20Exploit)
-2. [Hope](/hope)
+🔥 [Curve exploited](/Curve%20Pool%20Reentrancy%20Exploit)
+🔥 [Hope](/hope)
+
+
