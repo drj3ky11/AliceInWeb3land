@@ -18,6 +18,8 @@ Some useful tools and resources for navigating the ocean of the web3
 
 [Mempool](https://beaconcha.in/mempool)
 
+[Mempool II](https://payload.de/data/)
+
 ### Explorer and api
 
 [Bitquery](https://explorer.bitquery.io/)
