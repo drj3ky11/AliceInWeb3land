@@ -1,6 +1,6 @@
 Some useful tools and resources for navigating the ocean of the web3
 
-## Blocksplorer
+## Blocks explorer
 
 [Etherscan](https://etherscan.io/)
 [Phalcon](https://explorer.phalcon.xyz/)
