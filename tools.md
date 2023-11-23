@@ -48,6 +48,17 @@ Some useful tools and resources for navigating the ocean of the web3
 
 [EthEVM](https://ethervm.io/)
 
+[evmdis disassembler](https://github.com/Arachnid/evmdis)
+
+[pyevmasm dis-assembler](https://github.com/crytic/pyevmasm)
+
+[Ethersplay Binary Ninja plugin](https://github.com/crytic/ethersplay)
+
+[JEB decompiler](https://www.pnfsoftware.com/blog/ethereum-smart-contract-decompiler/)
+
+[Function Signature Database](https://www.4byte.directory/)
+
+
 ## Add Ons
 
 [MetaDock](https://blocksec.com/metadock)
