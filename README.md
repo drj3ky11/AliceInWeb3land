@@ -10,7 +10,7 @@
 > 
 > *Through the Looking Glass Lewis Carroll*
 
-In web3, within a single transaction you can host hundreds of events. But at the end of the block, everything is the same as before, or maybe not everything? Front-runners, flash loans... and their operations on the "memory" that has not yet been and their operations in the "memory" that has not yet been, are some of the most " singular " actors of the mempool. 
+In web3, within a single transaction you can host hundreds of events. But at the end of the block, everything is the same as before, or maybe not everything? Front-runners, flash loans... and their operations on the "memory" that has not yet been, are some of the most "singular" actors of the mempool. 
 
 The creation of new protocols and smart contracts is a daily race in the web3 environment.The activity and speed of interaction is dizzying. The meticulous and specialized analysis, the cooperation of the community and the community and understanding among the various players is the only way that such a new technology can be is the only way for such a novel technology to be truly successful and secure. 
 
