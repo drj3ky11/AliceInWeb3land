@@ -9,7 +9,7 @@ payload = json.dumps({
 })
 headers = {
    'Content-Type': 'application/json',
-   'X-API-KEY': 'BQY55Sc3614Jdm3QGs7cNPihY14WkoEy'
+   'X-API-KEY': '---------'
 }
 
 response = requests.request("POST", url, headers=headers, data=payload)
