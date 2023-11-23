@@ -24,3 +24,5 @@ The creation of new protocols and smart contracts is a daily race in the web3 en
 🔨[Tools](tools.md)
 
 📒 [Notes about EVM](/evm/abstract.md)
+
+❓ [useful api queries ](/query)
