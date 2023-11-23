@@ -12,6 +12,11 @@ Some useful tools and resources for navigating the ocean of the web3
 
 [BLockCypher](https://live.blockcypher.com/)
 
+### Explorer and api
+
+[Bitquery](https://explorer.bitquery.io/)
+
+[Transpose](https://app.transpose.io/playground)
 
 
 ## Tx and smart contracts
