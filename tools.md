@@ -18,6 +18,9 @@ Some useful tools and resources for navigating the ocean of the web3
 
 [Transpose](https://app.transpose.io/playground)
 
+### DeFi
+
+[Llama](https://defillama.com/)
 
 ## Tx and smart contracts
 
