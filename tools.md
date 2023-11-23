@@ -44,6 +44,8 @@ Some useful tools and resources for navigating the ocean of the web3
 
 [evm](https://evm.storage/)
 
+[Bytecode to Opcode Disassembler](https://etherscan.io/opcode-tool)
+
 
 
 ## Add Ons
