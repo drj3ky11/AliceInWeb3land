@@ -12,6 +12,10 @@ Some useful tools and resources for navigating the ocean of the web3
 
 [BLockCypher](https://live.blockcypher.com/)
 
+[OpenChain](https://openchain.xyz/trace)
+
+[Flashbots](https://flashbots-explorer.marto.lol/)
+
 ### Explorer and api
 
 [Bitquery](https://explorer.bitquery.io/)
@@ -28,9 +32,19 @@ Some useful tools and resources for navigating the ocean of the web3
 
 [TenderlyExplorer](https://dashboard.tenderly.co/explorer?pk_vid=459cb49dd4a7854217007316319edce9)
 
+[SolidityScan](https://solidityscan.com/home)
+
 ## SandBox
 
 [Tenderly](https://sandbox.tenderly.co/)
+
+## Decompiler and storage
+
+[Dedaub](https://library.dedaub.com/)
+
+[evm](https://evm.storage/)
+
+
 
 ## Add Ons
 
