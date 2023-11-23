@@ -22,3 +22,5 @@ The creation of new protocols and smart contracts is a daily race in the web3 en
 🔥 [Hope](/hope)
 
 🔨[Tools](tools.md)
+
+📒 [Notes about EVM](/evm/abstract.md)
