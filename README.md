@@ -10,13 +10,11 @@ Repositorio en el que recopilo material que he empleado a lo largo de distintas 
 > 
 > *Through the Looking Glass Lewis Carroll*
 
-In web3, within a single transaction you can host hundreds of events. But at the end of the block, everything is the same as before, or maybe not everything? Front-runners, flash loans... and their operations on the "memory" that has not yet been, are some of the most "singular" actors of the mempool. 
+## Índice
 
-The creation of new protocols and smart contracts is a daily race in the web3 environment.The activity and speed of interaction is dizzying. The meticulous and specialized analysis, the cooperation of the community and the community and understanding among the various players is the only way that such a new technology can be is the only way for such a novel technology to be truly successful and secure.
+🔥[Jornadas STIC 2023](https://jornadas.ccn-cert.cni.es/es/programa/xvii-jornadas-ccn-cert/ponencia/alice-in-web3land) --> [Alice in web3land](./mempoolTales/)
 
-[Jornadas STIC 2023](https://jornadas.ccn-cert.cni.es/es/programa/xvii-jornadas-ccn-cert/ponencia/alice-in-web3land) --> [MempoolTale](./mempoolTales/)
+🔥[Vicon.gal](https://vicon.gal/) --> [Unveiling the ethereum dark forest](./mempoolTales/)
 
-[Vicon.gal](https://vicon.gal/) --> [MempoolTale](./mempoolTales/)
-
-[OSINTOMÁTICOS](https://2025.osintomatico.com/) --> [TheEthereumMaze](./TheEthereumMaze/)
+🔥[OSINTOMÁTICOS](https://2025.osintomatico.com/) --> [Breaking out of the Ethereum maze ](./TheEthereumMaze/)
 
