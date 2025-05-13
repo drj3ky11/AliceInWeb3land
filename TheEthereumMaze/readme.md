@@ -1,4 +1,4 @@
-# Notes about how to break out the etherum maze
+# Notes about how to break out the ethereum maze
 
 ✅[I Consulta a terceros](ApiAndMore.md)
 
