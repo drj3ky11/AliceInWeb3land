@@ -1,56 +1,76 @@
-import pandas as pd
-import sys
+import csv
 from pyvis.network import Network
-# Destinos comunes con un grafo interactivo	usando PyVis
-def load_csv(file_path):
-    return pd.read_csv(file_path)
+from collections import defaultdict
 
-def find_common_destinations(df1, df2):
-    return set(df1['Destino']).intersection(set(df2['Destino']))
+def leer_csv(archivo):
+    datos = []
+    destinos = set()
+    with open(archivo, 'r') as f:
+        reader = csv.reader(f)
+        next(reader)  # Saltar encabezado
+        for row in reader:
+            origen = row[0].strip()
+            tx_hash = row[1].strip()
+            destino = row[2].strip()
+            datos.append((origen, tx_hash, destino))
+            destinos.add(destino)
+    return datos, destinos
 
-def build_pyvis_graph(df1, df2, common_dest):
-    net = Network(height="750px", width="100%", directed=True, bgcolor="#ffffff", font_color="black")
-    net.force_atlas_2based()
+# Leer datos de ambos archivos
+a_data, a_destinos = leer_csv('a.csv')
+e_data, e_destinos = leer_csv('e.csv')
 
-    # Para evitar nodos duplicados
-    added_nodes = set()
+# Encontrar destinos comunes
+common_dest = a_destinos & e_destinos
 
-    for df, source in zip([df1, df2], ['a.csv', 'e.csv']):
-        sub_df = df[df['Destino'].isin(common_dest)]
-        for _, row in sub_df.iterrows():
-            src = row['Origen']
-            dst = row['Destino']
-            tx = row['Hash TX']
+if not common_dest:
+    print("No se encontraron destinos comunes.")
+    exit()
 
-            if src not in added_nodes:
-                net.add_node(src, label=src)
-                added_nodes.add(src)
-            if dst not in added_nodes:
-                net.add_node(dst, label=dst)
-                added_nodes.add(dst)
+# Procesar fuentes de origen y nodos destino
+origen_sources = defaultdict(set)
+destino_nodes = set(common_dest)
 
-            net.add_edge(src, dst, title=f"{source}: {tx}", label=source)
+# Actualizar fuentes para a.csv
+for origen, _, destino in a_data:
+    if destino in common_dest:
+        origen_sources[origen].add('a')
+        destino_nodes.add(destino)
 
-    return net
+# Actualizar fuentes para e.csv
+for origen, _, destino in e_data:
+    if destino in common_dest:
+        origen_sources[origen].add('e')
+        destino_nodes.add(destino)
 
-def main(a_file='a.csv', e_file='e.csv'):
-    df_a = load_csv(a_file)
-    df_e = load_csv(e_file)
+# Crear red
+net = Network(notebook=True, height="750px", width="100%", cdn_resources='remote')
+net.force_atlas_2based()
 
-    common_dest = find_common_destinations(df_a, df_e)
-    if not common_dest:
-        print("No se encontraron destinos comunes.")
-        return
-
-    print(f"Se encontraron {len(common_dest)} destinos comunes.")
-    net = build_pyvis_graph(df_a, df_e, common_dest)
-
-    output_file = "grafo_interactivo.html"
-    net.show(output_file)
-    print(f"Grafo guardado en: {output_file}")
-
-if __name__ == '__main__':
-    if len(sys.argv) >= 3:
-        main(sys.argv[1], sys.argv[2])
+# Añadir nodos origen
+for origen, sources in origen_sources.items():
+    if len(sources) == 2:
+        color = '#FF00FF'  # Morado para ambos
+    elif 'a' in sources:
+        color = '#0000FF'  # Azul para a.csv
     else:
-        main()
+        color = '#00FF00'  # Verde para e.csv
+    net.add_node(origen, label=origen, color=color)
+
+# Añadir nodos destino
+for destino in destino_nodes:
+    net.add_node(destino, label=destino, color='#FF0000')  # Rojo
+
+# Añadir aristas desde a.csv
+for origen, tx_hash, destino in a_data:
+    if destino in common_dest:
+        net.add_edge(origen, destino, title=tx_hash, color='#0000FF')
+
+# Añadir aristas desde e.csv
+for origen, tx_hash, destino in e_data:
+    if destino in common_dest:
+        net.add_edge(origen, destino, title=tx_hash, color='#00FF00')
+
+# Generar y mostrar gráfico
+net.show('transacciones.html')
+print("Visualización generada en 'transacciones.html'")
